@@ -1,0 +1,65 @@
+body {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, black 15%, red); 
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menus li {
+    margin: 20px;
+    list-style: none;
+}
+
+.Menus li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: all 400ms;
+}
+
+.Menus li a:hover {
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.concepto {
+    background-color: rgba(155, 47, 47, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Ajusta el ancho según lo necesites */
+    text-align: center;
+}
+
+.Menus-btn {
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 400ms;
+}
+
+.Menus-btn:hover {
+    background-color: darkred; /* Cambia el color al pasar el mouse */
+}
+
+h1 {
+    text-align: center;
+}
